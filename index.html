@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Bem Vindo!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1, a {
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+            display: block; /* Para que cada link ocupe uma linha */
+        }
+
+        a:hover {
+            color: #007bff;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Adicionando espaçamento entre os links */
+        a + a {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Seja Bem Vindo!</h1>
+        <a href="https://github.com/RodrigoDSL?tab=repositories" target="_blank">-> Meu portfólio de alguns projetos já desenvolvidos <-</a>
+        <a href="Sobremim.html">-> Sobre Mim <-</a>
+        <a href="Formacao.html"> ->Formação Profissional, Idiomas etc... <-</a>
+        <a href="Contato.html"> ->Contato <-</a>
+    </div>
+</body>
+</html>
